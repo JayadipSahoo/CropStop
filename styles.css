@@ -123,7 +123,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   body .mainContainer {
     padding: 0 2%;
     height: 90px;

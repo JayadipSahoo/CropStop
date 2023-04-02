@@ -8,11 +8,12 @@
 .obj{
     visibility: hidden;
 }
-
+.mainContainer{
+  background-color: #518300;
+}
 .navbar {
   font-family: Lato;
   height: 90px;
-  background-color: #518300;
   padding: 0;
   width: 101.8%;
   margin-left: -1%;
@@ -87,12 +88,12 @@
 /*Responsiveness for screens*/
 @media screen and (max-width: 1600px) {
   body .mainContainer .navbar .navbar-brand .nav-item #icon1{
-    margin-left: 20%;
+    padding-left: 2%;
   }
 }
 @media screen and (max-width: 1350px) {
   body .mainContainer .navbar .navbar-brand .nav-item #icon1{
-    margin-left: 10%;
+    padding-left: 2%;
   }
   body .mainContainer .navbar .navbar-collapse .navbar-nav {
     width: 110% !important;
@@ -102,7 +103,7 @@
 }
 @media screen and (max-width: 1200px) {
   body .mainContainer .nav-item #icon1{
-    padding: 0 1%;
+    padding: 0 2%;
   }
   body .mainContainer .navbar .navbar-brand {
     margin-left: 2% !important;
@@ -113,17 +114,17 @@
     position: relative !important;
   }
   .last{
-    visibility: collapse;
+    visibility: hidden;
   }
   .obj{
     visibility: visible;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   body .mainContainer {
     padding: 0 2%;
-    height: 800px !important;
+    height: 90px;
   }
   body .mainContainer .navbar {
     margin-bottom: 200px;

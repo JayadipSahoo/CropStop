@@ -641,3 +641,30 @@ body {
   background-image: url(./src/agritech3.jpg);
 }
 
+
+
+@media(max-width:900px){
+  .slider__content h1 {
+    font-weight: 600;
+    font-size: 2vh;
+  }
+}
+@media(max-width:1526px){
+  
+  .message textarea{
+    height: 400px;
+    width: 85%;
+  }
+  .form input{
+    width: 85%;
+    height: 40px;
+    gap: 5px;
+  }
+
+  .form{
+    gap: 0%;
+  }
+  .messageBox{
+    gap: 15%;
+  }
+}

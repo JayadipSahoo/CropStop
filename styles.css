@@ -677,3 +677,38 @@ body {
     gap: 15%;
   }
 }
+
+
+.footer {
+  background: #518300;
+  color: #fff;
+  padding-top: 0;
+  margin: 0;
+}
+.footer .contacts ul {
+  list-style-type: none;
+}
+.footer .contacts li a {
+  color: #fff;
+  transition: color 0.2s;
+}
+.footer .contacts li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .about i {
+  font-size: 18px;
+}
+.footer .about a {
+  color: #fff;
+  transition: color 0.2s;
+}
+.footer .about a:hover {
+  color: #fff;
+}
+.col-lg-3.col-xs-12.contacts {
+  padding-top: 23px;
+}
+.about {
+  margin-right: 150px;
+}
